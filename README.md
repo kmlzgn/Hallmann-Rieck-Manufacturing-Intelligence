@@ -12,53 +12,22 @@ The report combines plant-level KPIs with machine-level and machine–product in
 
 > **Synthetic portfolio project:** Hallmann & Rieck is fictional. All company names, operational records and business figures are synthetic and created for demonstration purposes. This is not a real customer engagement.
 
-## Report walkthrough
+## Report pages
 
-### 1. Executive Overview
-Plant-level performance, OEE components, machine comparison and estimated business impact.
-
-![Executive Overview](preview/01-executive-overview.jpg)
-
-### 2. OEE & Machine Performance
-OEE trends, machine comparisons, shift analysis and machine–product views.
-
-![OEE & Machine Performance](preview/02-oee-machine-performance.jpg)
-
-### 3. Downtime & Reliability
-Downtime Pareto, MTBF, MTTR, machine downtime and maintenance cost.
-
-![Downtime & Reliability](preview/03-downtime-reliability.jpg)
-
-### 4. Quality
-Defect Pareto, scrap and rework performance, quality by shift and machine–product scrap heatmap.
-
-![Quality](preview/04-quality.jpg)
-
-### 5. Delivery & Business Impact
-OTIF, On-Time, In-Full, customer performance, estimated losses and production attainment.
-
-![Delivery & Business Impact](preview/05-delivery-business-impact.jpg)
-
-### 6. Machine Investigation
-Machine-specific drill-through analysis across performance, downtime, failure codes, maintenance history and product impact.
-
-![Machine Investigation](preview/06-machine-investigation.jpg)
-
-### 7. Quality Investigation
-Machine–product drill-through investigation of defect distribution, scrap, rework and quality trends.
-
-![Quality Investigation](preview/07-quality-investigation.jpg)
-
-### 8. Improvement Opportunities
-An evidence-based worklist for further investigation. The page deliberately avoids an automated priority score or claiming which action management should take first.
-
-![Improvement Opportunities](preview/08-improvement-opportunities.jpg)
+1. **[Executive Overview](preview/01-executive-overview.jpg)** — Plant-level performance, OEE components, machine comparison and estimated business impact.
+2. **[OEE & Machine Performance](preview/02-oee-machine-performance.jpg)** — OEE trends, machine comparisons, shift analysis and machine–product views.
+3. **[Downtime & Reliability](preview/03-downtime-reliability.jpg)** — Downtime Pareto, MTBF, MTTR, machine downtime and maintenance cost.
+4. **[Quality](preview/04-quality.jpg)** — Defect Pareto, scrap and rework performance, quality by shift and machine–product scrap heatmap.
+5. **[Delivery & Business Impact](preview/05-delivery-business-impact.jpg)** — OTIF, On-Time, In-Full, customer performance, estimated losses and production attainment.
+6. **[Machine Investigation](preview/06-machine-investigation.jpg)** — Machine-specific drill-through analysis across performance, downtime, failure codes, maintenance history and product impact.
+7. **[Quality Investigation](preview/07-quality-investigation.jpg)** — Machine–product drill-through investigation of defect distribution, scrap, rework and quality trends.
+8. **[Improvement Opportunities](preview/08-improvement-opportunities.jpg)** — An evidence-based worklist for further investigation, without an automated priority score or claiming which action management should take first.
 
 ## Analytical approach
 
-- OEE calculated as Availability × Performance × Quality, using measures designed for appropriate aggregation grain.
+- OEE calculated as Availability × Performance × Quality, with measures designed for appropriate aggregation grain.
 - DAX measures for operational KPIs and estimated business impact.
-- KPI thresholds held in a configuration table.
+- KPI thresholds maintained in a configuration table.
 - Dimensional data model with interactive slicers and native drill-through navigation.
 - Downtime, quality, delivery and business-impact analysis presented in a consistent reporting experience.
 - Improvement opportunities framed as measurable evidence—not automated recommendations or composite rankings.
